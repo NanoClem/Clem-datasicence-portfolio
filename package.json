@@ -1,0 +1,22 @@
+{
+  "name": "my-datascience-journey-1",
+  "version": "1.0.0",
+  "description": "This is my portfolio page made by and for my journey into data-scientist/analyst career.  \r Find the template I used here on [Html5up](https://html5up.net).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NanoClem/My-DataScience-journey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NanoClem/My-DataScience-journey/issues"
+  },
+  "homepage": "https://github.com/NanoClem/My-DataScience-journey#readme",
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
