@@ -8,21 +8,36 @@
   color: #343434;
   text-align: left;
   font-size: 18px;
-  margin: 0 0 15px 0;
+  margin: 5px 0 0 0;
 }
 
 .timeline h3 {
   color: #d81e05;
+  display: inline;
   text-align: left;
   font-size: 14px;
-  margin: 0 0 5px 0;
+  margin: 0 10px 5px 0;
 }
 
 .timeline p {
   color: #343434;
   text-align: left;
   font-size: 16px;
-  margin: 0 0 20px 0;
+}
+
+.timeline p.exp_type {
+  color: #343434;
+  text-align: left;
+  display: inline;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.timeline p.place {
+  color: #343434;
+  text-align: left;
+  font-size: 14px;
+  margin: 0 0 15px 0;
 }
 
 .timeline:after {
@@ -86,7 +101,7 @@
 }
 
 .timeline-nav-button {
-  position: absolute;
+  position: relative;
   width: 48px;
   height: 48px;
   cursor: pointer;

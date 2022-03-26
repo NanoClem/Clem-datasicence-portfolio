@@ -1,15 +1,10 @@
 <!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Clem data-science journey</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/timeline.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -18,8 +13,8 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="#top">Home</a></li>
-                    <li><a href="#aboutme">About me</a></li>
-					<li><a href="#work">Work</a></li>
+                    <li><a href="#experience">Experience</a></li>
+					<li><a href="#work">Interests</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -43,19 +38,27 @@
 				</div>
 			</article>
 
-			<article id="aboutme" class="wrapper style4">
+			<article id="experience" class="wrapper style2">
                 <div class="container">
                     <div class="header">
-                        <h2>Who am I ?</h2>
+                        <h2>My Experience</h2>
+						<p>
+							&nbsp;My career is an endless learning journey&nbsp;
+                        </p>
                     </div>
+					<div class="timeline">
+						<div class="timeline-nav"></div>
+						<div class="timeline-container"></div>
+					</div>
+					<script type="text/javascript" src="assets/js/timeline.js"></script>
                 </div>
             </article>
 
 		<!-- Work -->
-			<article id="work" class="wrapper style2">
+			<article id="work" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Hard skills I want to improve.</h2>
+						<h2>Areas of interest</h2>
 						<p>
                             <i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
                             &nbsp;My career is an endless learning journey&nbsp;
@@ -67,45 +70,70 @@
 							<section class="style1">
                                 <span class="icon solid fa-crosshairs fa-2x"></span>
                                 <h3 class="hardskill">Prospecting</h3>
-								<p>Learning how to ally business knowledge and my tech skills to target valuable information.</p>
+								<p>
+									Learn how to ally business knowledge and my tech skills to target valuable information.
+									The main goal is to be fully data driven.
+								</p>
 							</section>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
                             <section class="style1">
-                                <span class="icon solid fa-deviantart fa-2x"></span>
+                                <span class="icon solid fa-flask fa-2x"></span>
                                 <h3 class="hardskill">Data preparation</h3>
-								<p>Collect, clean and shape datasets to be in the best possible conditions for analysis. For me or my collaborators.</p>
+								<p>
+									Collect, clean and shape datasets to be in the best possible conditions for analysis.
+									For me, the majority of the time is spent on this discipline.
 							</section>
 						</div>
                         <div class="col-4 col-6-medium col-12-small">
                             <section class="style1">
                                 <span class="icon fa-chart-bar fa-2x"></span>
                                 <h3 class="hardskill">Data analysis</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-                            <section class="style1">
-                                <span class="icon fa-thumbs-up fa-2x"></span>
-                                <h3 class="hardskill">Dashboards</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+								<p>
+									Find insights and correlations throught statistical analysis and visualisations.
+									A valuable step before implementing a ML model.
+								</p>
 							</section>
 						</div>
                         <div class="col-4 col-6-medium col-12-small">
 							<section class="style1">
-								<span class="icon fa-thumbs-up fa-2x"></span>
+								<span class="icon solid fa-graduation-cap fa-2x"></span>
 								<h3 class="hardskill">Machine learning</h3>
-								<p>Machine learnign techniques and models.</p>
+								<p>I am enthusiastic about ML techniques and when to use the right model, on a given dataset for a given purpose.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+                            <section class="style1">
+                                <span class="icon solid fa-cloud fa-2x"></span>
+                                <h3 class="hardskill">Cloud computing</h3>
+								<p>
+                                    My experience with GCP showed me that business data can be easily integrated 
+									and worked around in such environments.
+                                </p>
 							</section>
 						</div>
                         <div class="col-4 col-6-medium col-12-small">
 							<section class="style1">
 								<span class="icon solid fa-cube fa-2x"></span>
 								<h3 class="hardskill">Design patterns</h3>
-								<p>I think software skills and well-designed code are good for performance and collaboration. Without overdoing it to not loose non-technical colleagues.</p>
+								<p>
+									Povide well-designed code with an ounce of software skills for a better performance and collaboration.
+									Without overdoing it to ease communication.
+								</p>
+							</section>
+						</div>
+                        <div class="col-4 col-6-medium col-12-small">
+							<section class="style1">
+								<span class="icon solid fa-comments fa-2x"></span>
+								<h3 class="hardskill">Collaboration</h3>
+								<p>
+									I enjoyed working, creating, exchanging alongside business part in my previous experiences.
+                                    Maintaining relations was also quite entertaining !
+								</p>
 							</section>
 						</div>
                     </div>
+
 					<footer>
 						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
 					</footer>
@@ -116,55 +144,54 @@
 			<article id="portfolio" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here’s some projects I made recently.</h2>
+						<h2>Here’s some projects I made.</h2>
 						<p>With passion, inspired by tought problems</p>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a class="image featured"><img src="images/game_economy.png" alt="" /></a>
+								<h3><a>Scraping and analysis of a video game's market economy</a></h3>
+								<p>Data scraping/analysis, REST API, reporting and docker. (Ask me directly).</p> 
+							</article>
+						</div>
+						<!-- <div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/NanoClem/boston-housing-ML" class="image featured"><img src="images/boston_housing.jpg" alt="" /></a>
+								<h3><a href="https://github.com/NanoClem/boston-housing-ML">Boston housing prices prediction</a></h3>
+								Looking for a new house back in the 70s' ? 
+							</article>
+						</div> -->
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/NanoClem/facecam-recognition" class="image featured"><img src="images/face_recognition.jpg" alt="" /></a>
+								<h3><a href="https://github.com/NanoClem/facecam-recognition">Face recognition app powered by a python REST API</a></h3>
+								<p>See who's knocking at your door.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="https://github.com/NanoClem/KNN-wines-classifier" class="image featured"><img src="images/wines_classification.jpg" alt="" /></a>
+								<h3><a href="https://github.com/NanoClem/KNN-wines-classifier">Wines classification with a KNN model</a></h3>
+								<p>You don't need to taste them all anymore, sorry.</p>
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="https://github.com/NanoClem/CNN-image-classifier" class="image featured"><img src="images/aerial_cactus.jpg" alt="" /></a>
+								<h3><a href="https://github.com/NanoClem/CNN-image-classifier">Aerial cactus identification with a CNN model</a></h3>
+								<p>A prickly computer vision experience.</p> 
 							</article>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="https://github.com/NanoClem/D3js-mass_shootings_usa" class="image featured"><img src="images/mass_shooting_map.PNG" alt="" /></a>
+								<h3><a href="https://github.com/NanoClem/D3js-mass_shootings_usa">USA mass shootings visualizations with d3js</a></h3>
+								<p>Dockerized project</p>
 							</article>
 						</div>
                     </div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#contact" class="button large scrolly">Get in touch with me</a>
 					</footer>
 				</div>
@@ -183,7 +210,7 @@
 							<h3>Find me also on ...</h3>
 							<ul class="social">
 								<li><a href="https://www.linkedin.com/in/clement-decoopman" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://github.com/NanoClem" class="icon brands fa-github"><span class="label">Github</span></a></li>
 								<!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>

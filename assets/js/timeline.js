@@ -1,40 +1,53 @@
 // experience data
 const exp_data = [
   {
-    period: "November 2021 - March 2022",
-    title: "Technological University Degree",
-    place: "IUT Arles, Aix-Marseille University",
-    descr: "Majoring in IT and picture processing"
+    period: "2016 - 2018",
+    type: "diploma",
+    title: "Technological University Degree, majoring in IT and picture processing",
+    place: "IUT Arles, Aix-Marseille University, Arles France",
+    descr: ""
   },
   {
-    period: "March 2021 - August 2021",
+    period: "April 2018 - August 2018",
+    type: "internship",
+    title: "Development of a calibration HMI app for Rafale and Mirage simulators",
+    place: "DGA Essai en Vol, military base 125, Istres France",
+    descr: "Study of an aircraft pilot and gunner controls. <br/> C++ QT."
+  },
+  {
+    period: "2018 - 2021",
+    type: "diploma",
     title: "IT Engineering Master’s degree, majoring in data-science",
-    place: "Polytech Annecy, Savoie Mont-Blanc University",
-    descr: "Data mining, data analysis, data-visualisation"
+    place: "Polytech Annecy, Savoie Mont-Blanc University, Annecy France",
+    descr: "Data mining, data analysis, data-visualisation."
   },
   {
-    period: "April 2019 - June 2029",
-    title: "Research Master’s degree, « High performance computing & Big Data »",
-    place: "Babeș-Bolyai University, Cluj-Napoca",
-    descr: "Big Data and IoT processing, machine learning"
+    period: "April 2019 - June 2019",
+    type: "internship",
+    title: "Studies and guidelines for a data governance in the Annecy's territorial community",
+    place: "Annecy's Town Hall, Annecy France",
+    descr: "Public and territorial data, territorial actors."
   },
   {
-    period: "April 2018 - June 2018",
+    period: "September 2020 - February 2021",
+    type: "erasmus",
     title: "Research Master’s degree, « High performance computing & Big Data »",
     place: "Babeș-Bolyai University, Cluj-Napoca",
-    descr: "Big Data and IoT processing, machine learning"
+    descr: "Big Data and IoT processing, machine learning."
   },
   {
-    period: "April 2018 - June 2018",
-    title: "Research Master’s degree, « High performance computing & Big Data »",
-    place: "Babeș-Bolyai University, Cluj-Napoca",
-    descr: "Big Data and IoT processing, machine learning"
+    period: "April 2021 - August 2021",
+    type: "internship",
+    title: "Data-science and cloud computing applied to railway bearings's tests",
+    place: "NTN-SNR Bearings, Annecy",
+    descr: "Business data integration into GCP, data analysis and reporting."
   },
   {
-    period: "April 2018 - June 2018",
-    title: "Research Master’s degree, « High performance computing & Big Data »",
-    place: "Babeș-Bolyai University, Cluj-Napoca",
-    descr: "Big Data and IoT processing, machine learning"
+    period: "November 2021 - March 2022",
+    type: "full time contract",
+    title: "Software engineer in public health and humanitarian",
+    place: "Novel-T, Geneva",
+    descr: "Geospatial and strategical public health planning."
   }
 ];
 
@@ -64,11 +77,10 @@ function timelineAddCard(infos) {
   let content = [];
   const container = document.getElementsByClassName("timeline-container")[0];
 
-  content.push("<h3>" + infos.period + "</h3>");
+  content.push("<h3>" + infos.period + "</h3> <p class='exp_type'>" + infos.type + "</p>");
   content.push("<h2>" + infos.title + "</h2>");
-  content.push(
-    "<p>" + infos.descr + "</p>"
-  );
+  content.push("<p class='place'><i>" + infos.place + "</i></p>");
+  content.push("<p>" + infos.descr + "</p>");
   content = content.join("");
 
   const newCard = document.createElement("div");
