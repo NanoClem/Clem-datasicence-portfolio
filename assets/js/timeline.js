@@ -32,7 +32,7 @@ const exp_data = [
     period: "September 2020 - February 2021",
     type: "erasmus",
     title: "Research Master’s degree, « High performance computing & Big Data »",
-    place: "Babeș-Bolyai University, Cluj-Napoca",
+    place: "Babeș-Bolyai University, Cluj-Napoca Romania",
     descr: "Big Data and IoT processing, machine learning."
   },
   {
@@ -80,7 +80,7 @@ function timelineAddCard(infos) {
   content.push("<h3>" + infos.period + "</h3> <p class='exp_type'>" + infos.type + "</p>");
   content.push("<h2>" + infos.title + "</h2>");
   content.push("<p class='place'><i>" + infos.place + "</i></p>");
-  content.push("<p>" + infos.descr + "</p>");
+  // content.push("<p>" + infos.descr + "</p>");
   content = content.join("");
 
   const newCard = document.createElement("div");

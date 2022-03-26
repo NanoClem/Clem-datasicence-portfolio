@@ -1,228 +1,302 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Clem data-science journey</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/timeline.css" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Clem data-science journey</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/timeline.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <!-- Nav -->
+    <nav id="nav">
+      <ul class="container">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#work">Interests</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Home</a></li>
-                    <li><a href="#experience">Experience</a></li>
-					<li><a href="#work">Interests</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</nav>
+    <!-- Home -->
+    <article id="top" class="wrapper style1">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-5-large col-12-medium">
+            <span class="image fit"
+              ><img src="images/profile.png" alt=""
+            /></span>
+          </div>
+          <div class="col-8 col-7-large col-12-medium">
+            <header>
+              <h1>Nice to meet you. I'm <strong>Clement</strong>.</h1>
+            </header>
+            <p>
+              And this is my <strong>storytelling</strong> of my journey to the
+              data-scientist career.
+            </p>
+            <a href="#experience" class="button large scrolly"
+              >Learn about it</a
+            >
+          </div>
+        </div>
+      </div>
+    </article>
 
-		<!-- Home -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/profile.png" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Nice to meet you. I'm <strong>Clement</strong>.</h1>
-							</header>
-							<p>And this is my <strong>storytelling</strong> of my journey to the data-scientist career.</p>
-							<a href="#work" class="button large scrolly">Learn about it</a>
-						</div>
-					</div>
-				</div>
-			</article>
+    <article id="experience" class="wrapper style2">
+      <div class="container">
+        <div class="header">
+          <h2 style="margin-bottom: 1.5em;">My Experience</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-nav"></div>
+          <div class="timeline-container"></div>
+        </div>
+        <script type="text/javascript" src="assets/js/timeline.js"></script>
+      </div>
+    </article>
 
-			<article id="experience" class="wrapper style2">
-                <div class="container">
-                    <div class="header">
-                        <h2>My Experience</h2>
-						<p>
-							&nbsp;My career is an endless learning journey&nbsp;
-                        </p>
-                    </div>
-					<div class="timeline">
-						<div class="timeline-nav"></div>
-						<div class="timeline-container"></div>
-					</div>
-					<script type="text/javascript" src="assets/js/timeline.js"></script>
-                </div>
+    <!-- Work -->
+    <article id="work" class="wrapper style3">
+      <div class="container">
+        <header>
+          <h2>Areas of interest</h2>
+          <p>
+            <i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
+            &nbsp;My career is an endless learning journey&nbsp;
+            <i class="fa fa-quote-right fa-lg" aria-hidden="true"></i>
+          </p>
+        </header>
+        <div class="row aln-center">
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon solid fa-crosshairs fa-2x"></span>
+              <h3 class="hardskill">Prospecting</h3>
+              <p>
+                Learn how to ally business knowledge and my tech skills to
+                target valuable information. The main goal is to be fully data
+                driven.
+              </p>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon solid fa-flask fa-2x"></span>
+              <h3 class="hardskill">Data preparation</h3>
+              <p>
+                Collect, clean and shape datasets to be in the best possible
+                conditions for analysis. For me, the majority of the time is
+                spent on this discipline.
+              </p>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon fa-chart-bar fa-2x"></span>
+              <h3 class="hardskill">Data analysis</h3>
+              <p>
+                Find insights and correlations throught statistical analysis and
+                visualisations. A valuable step before implementing a ML model.
+              </p>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon solid fa-graduation-cap fa-2x"></span>
+              <h3 class="hardskill">Machine learning</h3>
+              <p>
+                I am enthusiastic about ML techniques and when to use the right
+                model, on a given dataset for a given purpose.
+              </p>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon solid fa-cloud fa-2x"></span>
+              <h3 class="hardskill">Cloud computing</h3>
+              <p>
+                My experience with GCP showed me that business data can be
+                easily integrated and worked around in such environments.
+              </p>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon solid fa-cube fa-2x"></span>
+              <h3 class="hardskill">Design patterns</h3>
+              <p>
+                Povide well-designed code with an ounce of software skills for a
+                better performance and collaboration. Without overdoing it to
+                ease communication.
+              </p>
+            </section>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <section class="style1">
+              <span class="icon solid fa-comments fa-2x"></span>
+              <h3 class="hardskill">Collaboration</h3>
+              <p>
+                I enjoyed working, creating, exchanging alongside business part
+                in my previous experiences. Maintaining relations was also quite
+                entertaining !
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <footer>
+          <a href="#portfolio" class="button large scrolly"
+            >See some of my projects</a
+          >
+        </footer>
+      </div>
+    </article>
+
+    <!-- Portfolio -->
+    <article id="portfolio" class="wrapper style3">
+      <div class="container">
+        <header>
+          <h2>Here’s some projects I made.</h2>
+          <p>With passion, inspired by tought problems</p>
+        </header>
+        <div class="row">
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a class="image featured"
+                ><img src="images/game_economy.png" alt=""
+              /></a>
+              <h3>
+                <a>Scraping and analysis of a video game's market economy</a>
+              </h3>
+              <p>
+                Data scraping/analysis, REST API, reporting and docker. (Ask me
+                directly).
+              </p>
             </article>
-
-		<!-- Work -->
-			<article id="work" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Areas of interest</h2>
-						<p>
-                            <i class="fa fa-quote-left fa-lg" aria-hidden="true"></i>
-                            &nbsp;My career is an endless learning journey&nbsp;
-                            <i class="fa fa-quote-right fa-lg" aria-hidden="true"></i>
-                        </p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="style1">
-                                <span class="icon solid fa-crosshairs fa-2x"></span>
-                                <h3 class="hardskill">Prospecting</h3>
-								<p>
-									Learn how to ally business knowledge and my tech skills to target valuable information.
-									The main goal is to be fully data driven.
-								</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-                            <section class="style1">
-                                <span class="icon solid fa-flask fa-2x"></span>
-                                <h3 class="hardskill">Data preparation</h3>
-								<p>
-									Collect, clean and shape datasets to be in the best possible conditions for analysis.
-									For me, the majority of the time is spent on this discipline.
-							</section>
-						</div>
-                        <div class="col-4 col-6-medium col-12-small">
-                            <section class="style1">
-                                <span class="icon fa-chart-bar fa-2x"></span>
-                                <h3 class="hardskill">Data analysis</h3>
-								<p>
-									Find insights and correlations throught statistical analysis and visualisations.
-									A valuable step before implementing a ML model.
-								</p>
-							</section>
-						</div>
-                        <div class="col-4 col-6-medium col-12-small">
-							<section class="style1">
-								<span class="icon solid fa-graduation-cap fa-2x"></span>
-								<h3 class="hardskill">Machine learning</h3>
-								<p>I am enthusiastic about ML techniques and when to use the right model, on a given dataset for a given purpose.</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-                            <section class="style1">
-                                <span class="icon solid fa-cloud fa-2x"></span>
-                                <h3 class="hardskill">Cloud computing</h3>
-								<p>
-                                    My experience with GCP showed me that business data can be easily integrated 
-									and worked around in such environments.
-                                </p>
-							</section>
-						</div>
-                        <div class="col-4 col-6-medium col-12-small">
-							<section class="style1">
-								<span class="icon solid fa-cube fa-2x"></span>
-								<h3 class="hardskill">Design patterns</h3>
-								<p>
-									Povide well-designed code with an ounce of software skills for a better performance and collaboration.
-									Without overdoing it to ease communication.
-								</p>
-							</section>
-						</div>
-                        <div class="col-4 col-6-medium col-12-small">
-							<section class="style1">
-								<span class="icon solid fa-comments fa-2x"></span>
-								<h3 class="hardskill">Collaboration</h3>
-								<p>
-									I enjoyed working, creating, exchanging alongside business part in my previous experiences.
-                                    Maintaining relations was also quite entertaining !
-								</p>
-							</section>
-						</div>
-                    </div>
-
-					<footer>
-						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Portfolio -->
-			<article id="portfolio" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Here’s some projects I made.</h2>
-						<p>With passion, inspired by tought problems</p>
-					</header>
-					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a class="image featured"><img src="images/game_economy.png" alt="" /></a>
-								<h3><a>Scraping and analysis of a video game's market economy</a></h3>
-								<p>Data scraping/analysis, REST API, reporting and docker. (Ask me directly).</p> 
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a class="image featured"><img src="images/IoT.png" alt="" /></a>
-								<h3><a>IoT: Bosh XDK sensor data engineering</a></h3>
-								<p>
-									A lambda architecture: batch and speed layer. 
-									MySQL, MongoDB, Hadoop, Spark, Sqoop, Impala, Tableau.
-									(Ask me directly).
-								</p>
-							</article>
-						</div>
-						<!-- <div class="col-4 col-6-medium col-12-small">
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a class="image featured"><img src="images/IoT.png" alt="" /></a>
+              <h3><a>IoT: Bosh XDK sensor data engineering</a></h3>
+              <p>
+                A lambda architecture: batch and speed layer. MySQL, MongoDB,
+                Hadoop, Spark, Sqoop, Impala, Tableau. (Ask me directly).
+              </p>
+            </article>
+          </div>
+          <!-- <div class="col-4 col-6-medium col-12-small">
 							<article class="box style2">
 								<a href="https://github.com/NanoClem/boston-housing-ML" class="image featured"><img src="images/boston_housing.jpg" alt="" /></a>
 								<h3><a href="https://github.com/NanoClem/boston-housing-ML">Boston housing prices prediction</a></h3>
 								Looking for a new house back in the 70s' ? 
 							</article>
 						</div> -->
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/NanoClem/facecam-recognition" class="image featured"><img src="images/face_recognition.jpg" alt="" /></a>
-								<h3><a href="https://github.com/NanoClem/facecam-recognition">Face recognition app powered by a python REST API</a></h3>
-								<p>See who's knocking at your door.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/NanoClem/KNN-wines-classifier" class="image featured"><img src="images/wines_classification.jpg" alt="" /></a>
-								<h3><a href="https://github.com/NanoClem/KNN-wines-classifier">Wines classification with a KNN model</a></h3>
-								<p>You don't need to taste them all anymore, sorry.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/NanoClem/CNN-image-classifier" class="image featured"><img src="images/aerial_cactus.jpg" alt="" /></a>
-								<h3><a href="https://github.com/NanoClem/CNN-image-classifier">Aerial cactus identification with a CNN model</a></h3>
-								<p>A prickly computer vision experience.</p> 
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://github.com/NanoClem/D3js-mass_shootings_usa" class="image featured"><img src="images/mass_shooting_map.PNG" alt="" /></a>
-								<h3><a href="https://github.com/NanoClem/D3js-mass_shootings_usa">USA mass shootings visualizations with d3js</a></h3>
-								<p>Dockerized project</p>
-							</article>
-						</div>
-                    </div>
-					<footer>
-						<a href="#contact" class="button large scrolly">Get in touch with me</a>
-					</footer>
-				</div>
-			</article>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a
+                href="https://github.com/NanoClem/facecam-recognition"
+                class="image featured"
+                ><img src="images/face_recognition.jpg" alt=""
+              /></a>
+              <h3>
+                <a href="https://github.com/NanoClem/facecam-recognition"
+                  >Face recognition app powered by a python REST API</a
+                >
+              </h3>
+              <p>See who's knocking at your door.</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a
+                href="https://github.com/NanoClem/KNN-wines-classifier"
+                class="image featured"
+                ><img src="images/wines_classification.jpg" alt=""
+              /></a>
+              <h3>
+                <a href="https://github.com/NanoClem/KNN-wines-classifier"
+                  >Wines classification with a KNN model</a
+                >
+              </h3>
+              <p>You don't need to taste them all anymore, sorry.</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a
+                href="https://github.com/NanoClem/CNN-image-classifier"
+                class="image featured"
+                ><img src="images/aerial_cactus.jpg" alt=""
+              /></a>
+              <h3>
+                <a href="https://github.com/NanoClem/CNN-image-classifier"
+                  >Aerial cactus identification with a CNN model</a
+                >
+              </h3>
+              <p>A prickly computer vision experience.</p>
+            </article>
+          </div>
+          <div class="col-4 col-6-medium col-12-small">
+            <article class="box style2">
+              <a
+                href="https://github.com/NanoClem/D3js-mass_shootings_usa"
+                class="image featured"
+                ><img src="images/mass_shooting_map.PNG" alt=""
+              /></a>
+              <h3>
+                <a href="https://github.com/NanoClem/D3js-mass_shootings_usa"
+                  >USA mass shootings visualizations with d3js</a
+                >
+              </h3>
+              <p>Dockerized project</p>
+            </article>
+          </div>
+        </div>
+        <footer>
+          <a href="#contact" class="button large scrolly"
+            >Get in touch with me</a
+          >
+        </footer>
+      </div>
+    </article>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>I'm available for hiring.</h2>
-						<p>Contact me on my email address : <a href="mailto: clemdec.pro@gmail.com">clemdec.pro@gmail.com</a>.</p>
-                        <p>I am also fully opened to critics towards this portfolio, feel free to give me any advice !</p>
-					</header>
-						<div class="col-12">
-							<hr />
-							<h3>Find me also on ...</h3>
-							<ul class="social">
-								<li><a href="https://www.linkedin.com/in/clement-decoopman" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/NanoClem" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<!--
+    <!-- Contact -->
+    <article id="contact" class="wrapper style4">
+      <div class="container medium">
+        <header>
+          <h2>I'm available for hiring.</h2>
+          <p>
+            Contact me on my email address :
+            <a href="mailto: clemdec.pro@gmail.com">clemdec.pro@gmail.com</a>.
+          </p>
+          <p>
+            I am also fully opened to critics towards this portfolio, feel free
+            to give me any advice !
+          </p>
+        </header>
+        <div class="col-12">
+          <hr />
+          <h3>Find me also on ...</h3>
+          <ul class="social">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/clement-decoopman"
+                class="icon brands fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/NanoClem"
+                class="icon brands fa-github"
+                ><span class="label">Github</span></a
+              >
+            </li>
+            <!--
 								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
 								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
 								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
@@ -233,24 +307,25 @@
 								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
 								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
 								-->
-							</ul>
-							<hr />
-						</div>
-					<footer>
-						<ul id="copyright">
-							<li>Design inspired from: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-			</article>
+          </ul>
+          <hr />
+        </div>
+        <footer>
+          <ul id="copyright">
+            <li>
+              Design inspired from: <a href="http://html5up.net">HTML5 UP</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </article>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
