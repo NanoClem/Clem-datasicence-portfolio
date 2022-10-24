@@ -19,7 +19,7 @@ const exp_data = [
     type: "diploma",
     title: "IT Engineering Master’s degree, majoring in data-science",
     place: "Polytech Annecy, Savoie Mont-Blanc University, Annecy France",
-    descr: "Data mining, data analysis, data-visualisation."
+    descr: "Machine learning, data analysis and visualization."
   },
   {
     period: "April 2019 - June 2019",
