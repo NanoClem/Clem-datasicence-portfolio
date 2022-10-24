@@ -48,6 +48,13 @@ const exp_data = [
     title: "Software engineer in public health and humanitarian",
     place: "Novel-T, Geneva",
     descr: "Geospatial and strategical public health planning."
+  },
+  {
+    period: "Current",
+    type: "full time contract",
+    title: "Data Engineer for cloud integration",
+    place: "Gavi the vaccine alliance, Geneva",
+    descr: "Business data integration into Azure, data analysis and reporting."
   }
 ];
 
@@ -80,7 +87,7 @@ function timelineAddCard(infos) {
   content.push("<h3>" + infos.period + "</h3> <p class='exp_type'>" + infos.type + "</p>");
   content.push("<h2>" + infos.title + "</h2>");
   content.push("<p class='place'><i>" + infos.place + "</i></p>");
-  // content.push("<p>" + infos.descr + "</p>");
+  content.push("<p>" + infos.descr + "</p>");
   content = content.join("");
 
   const newCard = document.createElement("div");
