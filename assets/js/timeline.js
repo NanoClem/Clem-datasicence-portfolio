@@ -51,7 +51,7 @@ const exp_data = [
   },
   {
     period: "Current",
-    type: "full time contract",
+    type: "mission",
     title: "Data Engineer for cloud integration",
     place: "Gavi the vaccine alliance, Geneva",
     descr: "Business data integration into Azure, data analysis and reporting."
