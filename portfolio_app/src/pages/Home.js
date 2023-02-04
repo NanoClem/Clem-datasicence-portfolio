@@ -16,8 +16,7 @@ const Home = ({ name, description, profile_pic }) => {
               <h1>Nice to meet you. I'm <strong>{name}</strong>.</h1>
             </header>
             <p>{parse(description)}</p>
-            <a href="#experience" class="button large scrolly"
-            >Learn about it</a>
+            <a href="#experience" class="button large scrolly">Learn about it</a>
           </div>
         </div>
       </div>
