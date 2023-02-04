@@ -14,7 +14,7 @@ function App() {
 
   const fetchData = async () => {
     try {
-      let response = await axios.get("./data/me.json")
+      let response = await axios.get("./data/me.json");
       setMeData(response.data);
     } catch (error) {
       console.log(error)
@@ -29,12 +29,16 @@ function App() {
     <div className="App">
       <Navbar />
       <Home name={meData.first_name} description={meData.intro_text} profile_pic={meData.profile_pic} />
-      <Experiences />
-      <Interests />
-      <Projects />
-      <Contact />
-      <div className="content">
-      </div>
+      <Experiences experiences={meData.experience} />
+      <Interests interests={meData.interests} />
+      <Projects projects={meData.projects} />
+      <Contact contact={meData.contact} />
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
     </div>
 
   );
