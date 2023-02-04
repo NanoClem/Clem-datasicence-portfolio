@@ -1,0 +1,192 @@
+{
+    "first_name": "Clement",
+    "last_name": "Decoopman",
+    "profile_pic": "images/profile.png",
+    "intro_text": "And this is the <strong>storytelling</strong> of my journey to the data-scientist career.",
+    "contact": {
+        "email": "clemdec.pro@gmail.com",
+        "likedin": "https://www.linkedin.com/in/clement-decoopman",
+        "github": "https://github.com/NanoClem"
+    },
+    "experience": [
+        {
+            "type": "diploma",
+            "period": "2016 - 2018",
+            "title": "Technological University Degree, majoring in IT and picture processing",
+            "location": "IUT Arles, Aix-Marseille University, Arles France",
+            "descr": ""
+        },
+        {
+            "type": "diploma",
+            "period": "April 2018 - June 2018",
+            "title": "Development of a calibration HMI app for Rafale and Mirage simulators",
+            "location": "DGA Essai en Vol, military base 125, Istres France",
+            "descr": "Study of an aircraft pilot and gunner controls. C++ QT."
+        },
+        {
+            "type": "diploma",
+            "period": "2018 - 2021",
+            "title": "IT Engineering Master's degree, majoring in data-science",
+            "location": "Polytech Annecy, Savoie Mont-Blanc University, Annecy France",
+            "descr": "Machine learning, data analysis and visualization."
+        },
+        {
+            "type": "internship",
+            "period": "April 2019 - June 2019",
+            "title": "Studies and guidelines for a data governance in the Annecy's territorial community",
+            "location": "Annecy's Town Hall, Annecy France",
+            "descr": "Public and territorial data, territorial actors."
+        },
+        {
+            "type": "diploma",
+            "period": "September 2020 - February 2021",
+            "title": "Research Master's degree, « High performance computing & Big Data »",
+            "location": "Babeș-Bolyai University, Cluj-Napoca Romania",
+            "descr": "Big Data and IoT processing, machine learning."
+        },
+        {
+            "type": "internship",
+            "period": "April 2021 - August 2021",
+            "title": "Data-science and cloud computing applied to railway bearings's tests",
+            "location": "NTN-SNR Bearings, Annecy",
+            "descr": "Business data integration into GCP, data analysis and reporting."
+        },
+        {
+            "type": "full time",
+            "period": "November 2021 - March 2022",
+            "title": "Software engineer in public health and humanitarian",
+            "location": "Novel-T, Geneva",
+            "descr": "Geospatial and strategical public health planning."
+        },
+        {
+            "type": "mission",
+            "period": "November 2021 - March 2022",
+            "title": "Data Engineer for cloud integration in NGO's vaccine sector",
+            "location": "Gavi the vaccine alliance, Geneva",
+            "descr": "Business data integration into Azure, data analysis and reporting."
+        }
+    ],
+    "interests": {
+        "descr": "My career is an endless learning journey",
+        "data": [
+            {
+                "title": "Prospecting",
+                "text": "Learn how to ally business knowledge and my tech skills to target valuable information. The main goal is to be fully data driven.",
+                "icon": "fa-crosshairs"
+            },
+            {
+                "title": "Data preparation",
+                "text": "Collect, clean and shape datasets to be in the best possible conditions for analysis. For me, the majority of the time is spent on this discipline.",
+                "icon": "fa-flask"
+            },
+            {
+                "title": "Data analysis",
+                "text": "Find insights and correlations throught statistical analysis and visualisations. What is fun about it is that we may don't know what we're looking for.",
+                "icon": "fa-chart-bar"
+            },
+            {
+                "title": "Machine learning",
+                "text": "I am enthusiastic about ML techniques and when to use the right model, on a given dataset for a given purpose.",
+                "icon": "fa-graduation-cap"
+            },
+            {
+                "title": "Computer vision",
+                "text": "An important topic impacting nowadays ML techniques and applications. I find this domain quite vast with a multitude of possible uses.",
+                "icon": "fa-eye"
+            },
+            {
+                "title": "Cloud computing",
+                "text": "My past experiences with GCP and Azure showed me that ML models can be easily integrated and worked around in such environments.",
+                "icon": "fa-cloud"
+            },
+            {
+                "title": "CI/CD for ML",
+                "text": "Continuous integration and development in ML field raise new challenges : should we include the model performance in the testing process ? How to deploy it as a service (web, embeded) ? Should we include data in version control ?",
+                "icon": "fa-recycle"
+            },
+            {
+                "title": "ETL processing",
+                "text": "I realized business knowledge is just as important to design and implement proper ETL pipelines. Data should to be processed depending on who will use them, how often they will be accessed, and the scaling capabilities.",
+                "icon": "fa-cubes"
+            },
+            {
+                "title": "Software dev",
+                "text": "Provide well-designed code with an ounce of software engineering skills for a better performance and maintainability. A balance between complexity and readability is key.",
+                "icon": "fa-cube"
+            },
+            {
+                "title": "Collaboration",
+                "text": "I enjoyed working, creating, exchanging alongside business part in my previous experiences. Maintaining relations is also quite entertaining !",
+                "icon": "fa-comments"
+            }
+        ]
+    },
+    "projects": {
+        "descr": "With passion, inspired by tought problems",
+        "data": [
+            {
+                "title": "This portfolio website !",
+                "descr": "Firstly made in plain HTML, recently remastered with React ! Let's step out of my comfort zone.",
+                "date" : "",
+                "url" : "https://github.com/NanoClem/datascience-cv-portfolio",
+                "tags": ["front-end"],
+                "technologies": ["react", "nodejs"],
+                "pic_url": "images/lightbulb.png"
+            },
+            {
+                "title": "Generate images with a DCGAN model (ML CI/CD)",
+                "descr": "Using data from reddit and a custom rest api. Does this image really exist ?",
+                "date" : "",
+                "url" : "",
+                "tags": ["ML", "GANs", "APIs", "data-scraping", "CI/CD"],
+                "technologies": ["python", "pytorch", "fastapi", "postgreSQL", "github actions", "docker"],
+                "pic_url": "images/Gan_img.jpeg"
+            },
+            {
+                "title": "Find a job with data scraping REST api",
+                "descr": "See how I conducted my job hunting and why I might already know about you !",
+                "date" : "",
+                "url" : "https://github.com/NanoClem/scrap-a-job-api",
+                "tags": ["data-scraping", "APIs", "CI/CD"],
+                "technologies": ["python", "fastapi", "docker", "postgreSQL", "docker"],
+                "pic_url": "images/finding_a_job.png"
+            },
+            {
+                "title": "Countries's life expectancy prediction",
+                "descr": "What would be your country's life expectancy in 5 years ?",
+                "date" : "",
+                "url" : "https://github.com/NanoClem/life-expectancy-prediction",
+                "tags": ["ML", "data-analysis"],
+                "technologies": ["python", "jupyter notebook"],
+                "pic_url": "images/life_exp.png"
+            },
+            {
+                "title": "Scraping of a video game's market economy",
+                "descr": "Data scraping/analysis, REST API, reporting and docker. (Ask me directly).",
+                "date" : "",
+                "url" : "",
+                "tags": ["data-scraping", "data-analysis", "dataviz", "APIs"],
+                "technologies": ["python", "nodejs", "mongodb", "docker", "powerbi"],
+                "pic_url": "images/game_economy.png"
+            },
+            {
+                "title": "IoT: Bosh XDK sensor data engineering",
+                "descr": "Building a speed layer with Hadoop, Spark and Tableau. (Ask me directly).",
+                "date" : "",
+                "url" : "",
+                "tags": ["IoT", "ETL", "dataviz", "data-architecture"],
+                "technologies": ["python", "spark", "tableau", "mongodb", "github actions"],
+                "pic_url": "images/IoT.jpeg"
+            },
+            {
+                "title": "Face recognition app powered by a python REST API",
+                "descr": "Who's knocking at your door ?",
+                "date" : "",
+                "url" : "https://github.com/NanoClem/facecam-recognition",
+                "tags": ["ML", "GANs", "APIs", "data-scraping"],
+                "technologies": ["python", "pytorch", "fastapi", "github actions"],
+                "pic_url": "images/face_recognition.jpg"
+            }
+        ]
+    }
+}
