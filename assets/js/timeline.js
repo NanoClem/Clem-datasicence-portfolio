@@ -43,14 +43,14 @@ const exp_data = [
     descr: "Business data integration into GCP, data analysis and reporting."
   },
   {
-    period: "November 2021 - March 2022",
-    type: "full time contract",
+    period: "September 2021 - September 2022",
+    type: "full time position",
     title: "Software engineer in public health and humanitarian",
     place: "Novel-T, Geneva",
     descr: "Geospatial and strategical public health planning."
   },
   {
-    period: "Current",
+    period: "October 2021 - June 2022",
     type: "mission",
     title: "Data Engineer for cloud integration",
     place: "Gavi the vaccine alliance, Geneva",
